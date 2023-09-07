@@ -11,7 +11,10 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-  // TODO
+  if (b === 0) {
+    throw new Error('Cannot divide by zero');
+  }
+  return a / b; 
 }
 
 // Example usage:

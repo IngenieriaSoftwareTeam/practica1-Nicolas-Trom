@@ -7,7 +7,8 @@ function subtract(a, b) {
 }
 
 function multiply(a, b) {
-  // TODO
+    return a * b;
+  
 }
 
 function divide(a, b) {
